@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  fish-speech:
+    build:
+      context: .
+      dockerfile: Dockerfile.test
+    image: fish-speech-test:latest
+    container_name: fish-speech
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=${NVIDIA_VISIBLE_DEVICES:-2}
+      - PORT=${PORT:-7864}
+      - GPU_IDLE_TIMEOUT=${GPU_IDLE_TIMEOUT:-60}
+      - BACKEND=${BACKEND:-cuda}
+    ports:
+      - "${PORT:-7864}:${PORT:-7864}"
+    volumes:
+      - ./checkpoints:/app/checkpoints:ro
+      - ./references:/app/references
+      - ./outputs:/app/outputs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:${PORT:-7864}/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s

@@ -1,0 +1,134 @@
+# Sensitive Information
+*.env
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# API Keys & Tokens
+*_token
+*_key
+*_secret
+*_password
+config/secrets.yml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyCharm
+.idea/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Docker
+.dockerignore
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Checkpoints (large files)
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+
+# Generated files
+speakers/
+*.wav
+*.mp3
+*.flac
+api_test_outputs/
+output*.wav
+test_*.wav
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# Large archives
+*.tar.gz
+*.zip
+*.7z
+fish-speech-all-in-one.tar.gz
+
+# Local config
+.locale
+test_server.pid
+server.log
+monitor.log
